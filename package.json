@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/WolfDry/electron-video/issues"
   },
-  "homepage": "https://github.com/WolfDry/electron-video#readme"
+  "homepage": "https://github.com/WolfDry/electron-video#readme",
+  "devDependencies": {
+    "electron": "^31.1.0"
+  }
 }
